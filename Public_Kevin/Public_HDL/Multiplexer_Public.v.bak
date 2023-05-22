@@ -1,0 +1,10 @@
+module Multiplexer_Public (
+output wire [4:0] S,
+input  wire [4:0] Counter,SW,
+input wire EN
+
+);
+    assign S = (EN==0) ? Counter :
+               (EN==1) ? SW :
+               0'bx;
+endmodule

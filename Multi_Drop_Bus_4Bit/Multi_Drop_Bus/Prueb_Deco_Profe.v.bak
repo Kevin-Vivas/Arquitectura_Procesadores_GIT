@@ -1,0 +1,21 @@
+module MultiDropBus(
+	input		[7:0] bus,
+	input 	clk, Reset,
+	input			[1:0] E,
+	output	reg	[7:0] Aen
+
+);
+
+   
+	always @(posedge clk, posedge Reset)
+		begin: RegAen
+			if(Reset == 1)
+				Aen <= 8'h00;
+			else 
+				if(E == 2'b01)
+					Aen <= bus;
+		end
+		
+
+		
+		endmodule

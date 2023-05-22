@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu May 18 16:21:56 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Public_Scrolling
+Top-level Entity Name : main
+Family : MAX 10
+Total logic elements : 92
+    Total combinational functions : 57
+    Dedicated logic registers : 71
+Total registers : 71
+Total pins : 53
+Total virtual pins : 0
+Total memory bits : 160
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,11 @@
+module TopModule(
+    input [3:0] BinInput,
+    output reg [6:0] HexOut
+);
+
+    DecoBin2Hex Decoder(
+        .BinInput(BinInput),
+        .HexOut(HexOut)
+    );
+
+endmodule

@@ -1,0 +1,41 @@
+module Prueb_Deco_Profe(
+	input		[7:0] bus,
+	input 	CLK, R,
+	input			[1:0] E,
+	output	reg	[7:0] Aen,
+	output	reg	[7:0] Ben,
+	output	reg	[7:0] Cen
+
+
+);
+
+
+   
+	always @(posedge CLK or negedge R)
+		begin: RegAen
+			if(!R)
+				Aen <= 8'h00;
+			else 
+				if(E == 2'b01)
+					Aen <= bus;
+		end
+		
+
+	always @(posedge CLK or negedge R)
+		begin: RegBen
+			if(!R)
+				Ben <= 8'h00;
+			else 
+				if(E == 2'b10)
+					Ben <= bus;
+		end
+		
+			always @(posedge CLK or negedge R)
+		begin: RegCen
+			if(!R)
+				Cen <= 8'h00;
+			else 
+				if(E == 2'b11)
+					Cen <= bus;
+		end
+		endmodule

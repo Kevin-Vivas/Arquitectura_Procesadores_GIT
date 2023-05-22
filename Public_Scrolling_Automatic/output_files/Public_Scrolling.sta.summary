@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clock_Divider'
+Slack : -4.032
+TNS   : -67.456
+
+Type  : Slow 1200mV 85C Model Setup 'Clock_Divider:U5|Inner_Clk'
+Slack : -4.009
+TNS   : -53.735
+
+Type  : Slow 1200mV 85C Model Setup 'Boton'
+Slack : -1.856
+TNS   : -9.875
+
+Type  : Slow 1200mV 85C Model Hold 'Boton'
+Slack : -0.435
+TNS   : -0.435
+
+Type  : Slow 1200mV 85C Model Hold 'Clock_Divider:U5|Inner_Clk'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock_Divider'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock_Divider'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Boton'
+Slack : -3.000
+TNS   : -19.703
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock_Divider:U5|Inner_Clk'
+Slack : -2.422
+TNS   : -75.629
+
+Type  : Slow 1200mV 0C Model Setup 'Clock_Divider'
+Slack : -3.649
+TNS   : -59.606
+
+Type  : Slow 1200mV 0C Model Setup 'Clock_Divider:U5|Inner_Clk'
+Slack : -3.645
+TNS   : -47.782
+
+Type  : Slow 1200mV 0C Model Setup 'Boton'
+Slack : -1.604
+TNS   : -8.710
+
+Type  : Slow 1200mV 0C Model Hold 'Boton'
+Slack : -0.458
+TNS   : -0.458
+
+Type  : Slow 1200mV 0C Model Hold 'Clock_Divider:U5|Inner_Clk'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock_Divider'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock_Divider'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Boton'
+Slack : -3.000
+TNS   : -19.347
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock_Divider:U5|Inner_Clk'
+Slack : -2.333
+TNS   : -75.273
+
+Type  : Fast 1200mV 0C Model Setup 'Clock_Divider'
+Slack : -1.221
+TNS   : -14.079
+
+Type  : Fast 1200mV 0C Model Setup 'Clock_Divider:U5|Inner_Clk'
+Slack : -1.159
+TNS   : -10.453
+
+Type  : Fast 1200mV 0C Model Setup 'Boton'
+Slack : -0.306
+TNS   : -1.206
+
+Type  : Fast 1200mV 0C Model Hold 'Boton'
+Slack : -0.125
+TNS   : -0.125
+
+Type  : Fast 1200mV 0C Model Hold 'Clock_Divider:U5|Inner_Clk'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock_Divider'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_Divider'
+Slack : -3.000
+TNS   : -27.831
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Boton'
+Slack : -3.000
+TNS   : -13.201
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_Divider:U5|Inner_Clk'
+Slack : -1.000
+TNS   : -51.000
+
+------------------------------------------------------------

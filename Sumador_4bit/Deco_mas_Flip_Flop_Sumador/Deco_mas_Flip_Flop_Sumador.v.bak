@@ -1,0 +1,27 @@
+module Deco_mas_Flip_Flop_Sumador(
+    input wire A,B,C,D;
+    output wire Aout0,Bout0,Cout0,Dout0,Eout0,Fout0,Gout0
+);
+
+  Suma_mas_FlipD U0(
+    .A(A),
+    .B(4'b0001),
+    .Clk(Clk),
+    .Q0(Q0),
+    .Q1(Q1)
+  );
+decodificador_hex U1(
+  .A0(input_A),
+  .B0(input_B),
+  .C0(input_C),
+  .D0(input_D),
+  .Aout0(output_A),
+  .Bout0(output_B),
+  .Cout0(output_C),
+  .Dout0(output_D),
+  .Eout0(output_E),
+  .Fout0(output_F),
+  .Gout0(output_G)
+);
+
+endmodule

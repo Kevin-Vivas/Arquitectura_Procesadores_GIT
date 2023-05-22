@@ -1,0 +1,10 @@
+module Counter_Five_Bits (
+ output reg [4:0] Counter,
+ input wire clock,EN
+);
+    always @(posedge clock) begin : COUNTER
+        if (EN) 
+            clock <= clock + 1;
+        
+    end
+endmodule

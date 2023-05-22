@@ -1,0 +1,16 @@
+module decodificador(input [2:0] Entrada_Deco_Tres_Bit, output reg [7:0] Led_salida);
+
+always @(Entrada_Deco_Tres_Bit) begin
+    case(Entrada_Deco_Tres_Bit)
+        3'b000: Led_salida = 8'b00000001; // Valor decimal 1
+        3'b001: Led_salida = 8'b00000010; // Valor decimal 2
+        3'b010: Led_salida = 8'b00000100; // Valor decimal 4
+        3'b011: Led_salida = 8'b00001000; // Valor decimal 8
+        3'b100: Led_salida = 8'b00010000; // Valor decimal 16
+        3'b101: Led_salida = 8'b00100000; // Valor decimal 32
+        3'b110: Led_salida = 8'b01000000; // Valor decimal 64
+        3'b111: Led_salida = 8'b10000000; // Valor decimal 128
+    endcase
+end
+
+endmodule

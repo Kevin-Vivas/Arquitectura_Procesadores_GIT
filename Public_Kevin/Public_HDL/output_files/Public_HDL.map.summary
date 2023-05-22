@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon May 15 09:10:27 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Public_HDL
+Top-level Entity Name : main
+Family : MAX 10
+Total logic elements : 64
+    Total combinational functions : 29
+    Dedicated logic registers : 47
+Total registers : 47
+Total pins : 54
+Total virtual pins : 0
+Total memory bits : 160
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

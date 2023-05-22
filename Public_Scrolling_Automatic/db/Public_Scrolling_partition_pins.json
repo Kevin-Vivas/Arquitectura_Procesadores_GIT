@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Dout0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Led_Mux",
+					"strict" : false
+				},
+				{
+					"name" : "Led_clk",
+					"strict" : false
+				},
+				{
+					"name" : "SW",
+					"strict" : false
+				},
+				{
+					"name" : "Boton",
+					"strict" : false
+				},
+				{
+					"name" : "Clock_Divider",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_RW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_RW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_RW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_RW[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_RW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset_Counter_Five_Bits",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

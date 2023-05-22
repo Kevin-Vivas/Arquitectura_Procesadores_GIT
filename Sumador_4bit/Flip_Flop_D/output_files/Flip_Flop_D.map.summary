@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Mar 25 14:07:57 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Flip_Flop_D
+Top-level Entity Name : Flip_Flop_D
+Family : MAX 10
+Total logic elements : 20
+    Total combinational functions : 10
+    Dedicated logic registers : 20
+Total registers : 20
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

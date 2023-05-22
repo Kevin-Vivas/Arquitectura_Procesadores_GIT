@@ -1,0 +1,9 @@
+module (
+    input  wire D,Clk,
+     output  reg [4:0]Q;
+     output  reg [4:0]Qn;
+     output  reg [4:0]Q1;
+     output  reg [4:0]Qn
+);
+
+endmodule

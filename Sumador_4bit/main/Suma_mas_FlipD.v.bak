@@ -1,0 +1,10 @@
+module Suma+Deco(
+    input wire [3:0] W,
+    input wire [3:0] y,
+    output reg [4:0] z
+);
+wire  n1;
+Sumador_4bits U0(.A(X), .B(Y) ,X.(n1));
+
+Flip_Flop_D U1(.D(n1));
+endmodule

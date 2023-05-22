@@ -1,0 +1,14 @@
+|decodificador_hex
+A0 => Decoder0.IN0
+B0 => Decoder0.IN1
+C0 => Decoder0.IN2
+D0 => Decoder0.IN3
+Aout0 << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Bout0 << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Cout0 << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Dout0 << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Eout0 << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Fout0 << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Gout0 << WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,20 @@
+module dos_Read_Write(
+  input wire WE,
+  input wire [5:0] data_in,
+  input wire clock,
+  input wire [5:0] address,
+  output reg [5:0] data_out
+);
+
+reg [6:0] RW[0:6];
+
+always @(negedge  clock) begin
+  if (!WE) begin // Si ambos botones están presionados
+    RW[address] <= data_in; // Escribir en la dirección seleccionada
+
+  end else begin
+    data_out <= RW[address]; // Leer el valor almacenado en la dirección seleccionada
+  end
+end
+
+endmodule

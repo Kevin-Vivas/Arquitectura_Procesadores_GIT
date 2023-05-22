@@ -1,0 +1,246 @@
+|main
+Bus[0] => Bus[0].IN1
+Bus[1] => Bus[1].IN1
+Bus[2] => Bus[2].IN1
+Bus[3] => Bus[3].IN1
+Bus[4] => Bus[4].IN1
+Bus[5] => Bus[5].IN1
+Bus[6] => Bus[6].IN1
+Bus[7] => Bus[7].IN1
+CLK => CLK.IN1
+Reset => Reset.IN1
+Digit1[0] << DecoBin2Hex:U1.HexOut
+Digit1[1] << DecoBin2Hex:U1.HexOut
+Digit1[2] << DecoBin2Hex:U1.HexOut
+Digit1[3] << DecoBin2Hex:U1.HexOut
+Digit1[4] << DecoBin2Hex:U1.HexOut
+Digit1[5] << DecoBin2Hex:U1.HexOut
+Digit1[6] << DecoBin2Hex:U1.HexOut
+Digit2[0] << DecoBin2Hex:U2.HexOut
+Digit2[1] << DecoBin2Hex:U2.HexOut
+Digit2[2] << DecoBin2Hex:U2.HexOut
+Digit2[3] << DecoBin2Hex:U2.HexOut
+Digit2[4] << DecoBin2Hex:U2.HexOut
+Digit2[5] << DecoBin2Hex:U2.HexOut
+Digit2[6] << DecoBin2Hex:U2.HexOut
+Digit3[0] << DecoBin2Hex:U3.HexOut
+Digit3[1] << DecoBin2Hex:U3.HexOut
+Digit3[2] << DecoBin2Hex:U3.HexOut
+Digit3[3] << DecoBin2Hex:U3.HexOut
+Digit3[4] << DecoBin2Hex:U3.HexOut
+Digit3[5] << DecoBin2Hex:U3.HexOut
+Digit3[6] << DecoBin2Hex:U3.HexOut
+Digit4[0] << DecoBin2Hex:U4.HexOut
+Digit4[1] << DecoBin2Hex:U4.HexOut
+Digit4[2] << DecoBin2Hex:U4.HexOut
+Digit4[3] << DecoBin2Hex:U4.HexOut
+Digit4[4] << DecoBin2Hex:U4.HexOut
+Digit4[5] << DecoBin2Hex:U4.HexOut
+Digit4[6] << DecoBin2Hex:U4.HexOut
+Digit5[0] << DecoBin2Hex:U5.HexOut
+Digit5[1] << DecoBin2Hex:U5.HexOut
+Digit5[2] << DecoBin2Hex:U5.HexOut
+Digit5[3] << DecoBin2Hex:U5.HexOut
+Digit5[4] << DecoBin2Hex:U5.HexOut
+Digit5[5] << DecoBin2Hex:U5.HexOut
+Digit5[6] << DecoBin2Hex:U5.HexOut
+Digit6[0] << DecoBin2Hex:U6.HexOut
+Digit6[1] << DecoBin2Hex:U6.HexOut
+Digit6[2] << DecoBin2Hex:U6.HexOut
+Digit6[3] << DecoBin2Hex:U6.HexOut
+Digit6[4] << DecoBin2Hex:U6.HexOut
+Digit6[5] << DecoBin2Hex:U6.HexOut
+Digit6[6] << DecoBin2Hex:U6.HexOut
+EN[0] => EN[0].IN1
+EN[1] => EN[1].IN1
+
+
+|main|Multi_Drop_Bus:U0
+Bus[0] => Aen[0]~reg0.DATAIN
+Bus[0] => Cen[0]~reg0.DATAIN
+Bus[0] => Ben[0]~reg0.DATAIN
+Bus[1] => Aen[1]~reg0.DATAIN
+Bus[1] => Ben[1]~reg0.DATAIN
+Bus[1] => Cen[1]~reg0.DATAIN
+Bus[2] => Aen[2]~reg0.DATAIN
+Bus[2] => Ben[2]~reg0.DATAIN
+Bus[2] => Cen[2]~reg0.DATAIN
+Bus[3] => Aen[3]~reg0.DATAIN
+Bus[3] => Ben[3]~reg0.DATAIN
+Bus[3] => Cen[3]~reg0.DATAIN
+Bus[4] => Aen[4]~reg0.DATAIN
+Bus[4] => Ben[4]~reg0.DATAIN
+Bus[4] => Cen[4]~reg0.DATAIN
+Bus[5] => Aen[5]~reg0.DATAIN
+Bus[5] => Ben[5]~reg0.DATAIN
+Bus[5] => Cen[5]~reg0.DATAIN
+Bus[6] => Aen[6]~reg0.DATAIN
+Bus[6] => Ben[6]~reg0.DATAIN
+Bus[6] => Cen[6]~reg0.DATAIN
+Bus[7] => Aen[7]~reg0.DATAIN
+Bus[7] => Ben[7]~reg0.DATAIN
+Bus[7] => Cen[7]~reg0.DATAIN
+CLK => Cen[0]~reg0.CLK
+CLK => Cen[1]~reg0.CLK
+CLK => Cen[2]~reg0.CLK
+CLK => Cen[3]~reg0.CLK
+CLK => Cen[4]~reg0.CLK
+CLK => Cen[5]~reg0.CLK
+CLK => Cen[6]~reg0.CLK
+CLK => Cen[7]~reg0.CLK
+CLK => Ben[0]~reg0.CLK
+CLK => Ben[1]~reg0.CLK
+CLK => Ben[2]~reg0.CLK
+CLK => Ben[3]~reg0.CLK
+CLK => Ben[4]~reg0.CLK
+CLK => Ben[5]~reg0.CLK
+CLK => Ben[6]~reg0.CLK
+CLK => Ben[7]~reg0.CLK
+CLK => Aen[0]~reg0.CLK
+CLK => Aen[1]~reg0.CLK
+CLK => Aen[2]~reg0.CLK
+CLK => Aen[3]~reg0.CLK
+CLK => Aen[4]~reg0.CLK
+CLK => Aen[5]~reg0.CLK
+CLK => Aen[6]~reg0.CLK
+CLK => Aen[7]~reg0.CLK
+R => Aen[0]~reg0.ACLR
+R => Aen[1]~reg0.ACLR
+R => Aen[2]~reg0.ACLR
+R => Aen[3]~reg0.ACLR
+R => Aen[4]~reg0.ACLR
+R => Aen[5]~reg0.ACLR
+R => Aen[6]~reg0.ACLR
+R => Aen[7]~reg0.ACLR
+R => Ben[0]~reg0.ACLR
+R => Ben[1]~reg0.ACLR
+R => Ben[2]~reg0.ACLR
+R => Ben[3]~reg0.ACLR
+R => Ben[4]~reg0.ACLR
+R => Ben[5]~reg0.ACLR
+R => Ben[6]~reg0.ACLR
+R => Ben[7]~reg0.ACLR
+R => Cen[0]~reg0.ACLR
+R => Cen[1]~reg0.ACLR
+R => Cen[2]~reg0.ACLR
+R => Cen[3]~reg0.ACLR
+R => Cen[4]~reg0.ACLR
+R => Cen[5]~reg0.ACLR
+R => Cen[6]~reg0.ACLR
+R => Cen[7]~reg0.ACLR
+EN[0] => Equal0.IN0
+EN[0] => Equal1.IN1
+EN[0] => Equal2.IN1
+EN[1] => Equal0.IN1
+EN[1] => Equal1.IN0
+EN[1] => Equal2.IN0
+Aen[0] <= Aen[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[1] <= Aen[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[2] <= Aen[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[3] <= Aen[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[4] <= Aen[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[5] <= Aen[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[6] <= Aen[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Aen[7] <= Aen[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[0] <= Ben[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[1] <= Ben[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[2] <= Ben[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[3] <= Ben[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[4] <= Ben[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[5] <= Ben[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[6] <= Ben[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Ben[7] <= Ben[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[0] <= Cen[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[1] <= Cen[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[2] <= Cen[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[3] <= Cen[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[4] <= Cen[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[5] <= Cen[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[6] <= Cen[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cen[7] <= Cen[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U1
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U2
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U3
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U4
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U5
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|DecoBin2Hex:U6
+BinInput[0] => Decoder0.IN3
+BinInput[1] => Decoder0.IN2
+BinInput[2] => Decoder0.IN1
+BinInput[3] => Decoder0.IN0
+HexOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HexOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

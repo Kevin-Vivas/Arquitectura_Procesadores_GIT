@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon May 15 09:10:41 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Public_HDL
+Top-level Entity Name : main
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 65 / 49,760 ( < 1 % )
+    Total combinational functions : 30 / 49,760 ( < 1 % )
+    Dedicated logic registers : 47 / 49,760 ( < 1 % )
+Total registers : 47
+Total pins : 54 / 360 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 160 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

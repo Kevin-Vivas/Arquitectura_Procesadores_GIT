@@ -1,0 +1,20 @@
+module main(
+  input wire WE,
+  input wire [5:0] data_in,
+  input wire clock,
+  input wire [5:0] address,
+  output reg [5:0] data_out
+);
+
+// Instanciación del módulo dos_Read_Write
+dos_Read_Write memory(
+  .WE(WE),
+  .data_in(data_in),
+  .clock(clock),
+  .address(address),
+  .data_out(data_out)
+);
+
+// Otros componentes y lógica de su diseño aquí
+
+endmodule
