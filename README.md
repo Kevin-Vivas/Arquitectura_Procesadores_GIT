@@ -5,7 +5,11 @@ These modules are part of the projects available in the repository and have been
 
 To carry out these projects, the Quartus program and the 10M50DAF484 FPGA model have been used, as shown in the following image:
 
-![](image/FPGA_10M50DAF484C7G.png)
+<p align="center">
+  <img src="image/FPGA_10M50DAF484C7G.png" alt="imagen" width="500" height="300" />
+</p>
+
+
 
 
 If you would like to obtain more details about these projects, I invite you to explore the repository and consult the provided documentation and schematic diagrams, which will provide you with a more comprehensive understanding of their operation.
